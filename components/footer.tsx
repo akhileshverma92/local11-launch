@@ -18,7 +18,7 @@ export function Footer() {
             <h3 className="text-2xl font-bold text-foreground">
               LOCAL<span className="text-orange-500">11</span>
             </h3>
-            <p className="text-muted-foreground mt-2">The future of gaming</p>
+            <p className="text-muted-foreground mt-2">Play Closer.</p>
           </div>
 
           {/* Links */}
@@ -33,13 +33,19 @@ export function Footer() {
               href="#"
               className="hover:text-foreground transition-colors"
             >
-              Contact
+              Community
             </a>
             <a
               href="#"
               className="hover:text-foreground transition-colors"
             >
               Privacy
+            </a>
+            <a
+              href="#"
+              className="hover:text-foreground transition-colors"
+            >
+              Contact
             </a>
           </div>
 
@@ -67,9 +73,12 @@ export function Footer() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm"
+          className="border-t border-border mt-8 pt-8"
         >
-          <p>&copy; 2026 LOCAL11. All rights reserved.</p>
+          <div className="text-center text-muted-foreground text-sm mb-4">
+            <p>Building the future of local cricket, one match at a time.</p>
+          </div>
+          <p className="text-center text-muted-foreground text-sm">&copy; 2026 LOCAL11. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

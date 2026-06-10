@@ -4,19 +4,19 @@ import { motion } from 'framer-motion';
 
 const features = [
   {
-    title: 'Play Together',
-    description: 'Challenge your friends and connect with gamers worldwide in real-time tournaments and matches.',
-    icon: '🎮',
+    title: 'Find Nearby Matches',
+    description: 'Discover open matches happening around you. Find games in your area instantly.',
+    icon: '🏏',
   },
   {
-    title: 'Win Rewards',
-    description: 'Compete for prizes, climb the leaderboards, and unlock exclusive rewards as you play.',
-    icon: '🏆',
+    title: 'Find Players Fast',
+    description: 'Need players for your next game? Find nearby cricketers in minutes.',
+    icon: '👥',
   },
   {
-    title: 'Celebrate Together',
-    description: 'Share victories with your community and build lasting friendships through gaming.',
-    icon: '🎉',
+    title: 'Play Local',
+    description: 'Connect with players and matches in your area. Keep the game alive in your community.',
+    icon: '📍',
   },
 ];
 
@@ -51,10 +51,10 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Why Choose LOCAL11?
+            Why LOCAL11?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience gaming like never before with features designed for everyone
+            Built for local cricket.
           </p>
         </motion.div>
 

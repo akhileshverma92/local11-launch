@@ -27,7 +27,7 @@ export function EmailForm() {
       }
 
       setStatus('success');
-      setMessage('✓ You&apos;re on the list! Check your inbox for updates.');
+      setMessage('🎉 You&apos;re on the list. We&apos;ll let you know when LOCAL11 launches.');
       setEmail('');
       setTimeout(() => setStatus('idle'), 5000);
     } catch (error) {
@@ -58,7 +58,7 @@ export function EmailForm() {
             Get Early Access
           </h2>
           <p className="text-lg text-muted-foreground">
-            Be among the first to experience LOCAL11. Join our community of gamers.
+            Be among the first players to access LOCAL11 when we launch.
           </p>
         </motion.div>
 
@@ -78,6 +78,7 @@ export function EmailForm() {
             required
             disabled={status === 'loading' || status === 'success'}
             className="flex-1 px-6 py-3 rounded-lg bg-input border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-orange-500 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+            aria-label="Email address"
           />
           <button
             type="submit"

@@ -38,16 +38,11 @@ export function Stats() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <div className="mb-4">
-            <span className="inline-block px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-sm font-semibold">
-              Our Community
-            </span>
-          </div>
           <h2 className="text-5xl sm:text-6xl font-bold text-foreground mb-4">
-            <span className="text-orange-500">{count}+</span> Players Ready
+            <span className="text-orange-500">{count}+</span> local players already joined
           </h2>
           <p className="text-xl text-muted-foreground max-w-xl mx-auto">
-            Join thousands of gamers who are excited about the future of LOCAL11
+            Social Proof
           </p>
         </motion.div>
       </div>

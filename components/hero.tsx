@@ -17,13 +17,24 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
+          className="mb-2"
+        >
+          <span className="inline-block px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-sm font-semibold mb-6">
+            🏏 Launching Soon
+          </span>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
         >
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            The Future of{' '}
+            Find Local{' '}
             <span className="bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
-              Gaming
+              Cricket
             </span>
-            {' '}is Here
+            . Play More Often.
           </h1>
         </motion.div>
 
@@ -33,20 +44,28 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Join LOCAL11 for an exclusive gaming experience. Play. Win. Celebrate together.
+          Discover nearby matches, connect with local players, and never miss a game again.
         </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="flex justify-center"
+          className="flex flex-col sm:flex-row justify-center gap-4"
         >
           <a
             href="#early-access"
             className="inline-block px-8 py-3 bg-orange-500 text-white rounded-lg font-semibold hover:bg-orange-600 transition-colors"
           >
-            Get Early Access
+            Get Notified
+          </a>
+          <a
+            href="https://t.co/FOKsUJe57J"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 bg-foreground/10 text-foreground border border-border rounded-lg font-semibold hover:bg-foreground/20 transition-colors"
+          >
+            Join Community
           </a>
         </motion.div>
       </div>

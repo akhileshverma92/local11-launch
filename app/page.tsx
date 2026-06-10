@@ -1,5 +1,6 @@
 import { Hero } from '@/components/hero';
 import { EmailForm } from '@/components/email-form';
+import { Community } from '@/components/community';
 import { Stats } from '@/components/stats';
 import { Features } from '@/components/features';
 import { Footer } from '@/components/footer';
@@ -9,6 +10,7 @@ export default function Page() {
     <main className="min-h-screen bg-background text-foreground">
       <Hero />
       <EmailForm />
+      <Community />
       <Stats />
       <Features />
       <Footer />
